@@ -3,7 +3,6 @@ class Song
 
 def initialize
   super
-  @songs = []
 end
 
 end
