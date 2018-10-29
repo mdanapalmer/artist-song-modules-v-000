@@ -2,7 +2,7 @@ class Artist
   attr_accessor :name
   extend Memorable::ClassMethods
   include Memorable::InstanceMethods
-  include Paramable::InstanceMethods
+  include Paramable
 
   def initialize
     super
