@@ -1,3 +1,3 @@
 class artist
-  extend memorable::ClassMethods
+  extend Memorable::ClassMethods
 end
