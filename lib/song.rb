@@ -1,6 +1,6 @@
 class Song
   extend Memorable::ClassMethods
-  include Paramble::InstanceMethods
+  include Paramable::InstanceMethods
 
 def initialize
   super
